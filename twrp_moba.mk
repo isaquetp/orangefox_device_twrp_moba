@@ -8,7 +8,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 
-# Inherit from lmi device
+# Inherit from moba device
 $(call inherit-product, device/lenovo/moba/device.mk)
 
 # Inherit some common Omni stuff.

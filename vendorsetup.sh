@@ -17,7 +17,7 @@
 #
 # 	Please maintain this if you use this script or any part of it
 #
-FDEVICE="lmi"
+FDEVICE="moba"
 #set -o xtrace
 
 fox_get_target_device() {
@@ -75,7 +75,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	
 	# R11.1 Settings
 	export FOX_VERSION="R12.1"
-	export OF_MAINTAINER="Sponmer"
+	export OF_MAINTAINER="taotao"
 	export FOX_BUILD_TYPE="Beta"
 
 	# Run a Process after Formatting Data to Work-Around MTP Issues
