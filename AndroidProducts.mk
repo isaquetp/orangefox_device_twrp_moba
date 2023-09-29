@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_lmi.mk
+    $(LOCAL_DIR)/twrp_moba.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_lmi-user \
-    twrp_lmi-userdebug \
-    twrp_lmi-eng
+    twrp_moba-user \
+    twrp_moba-userdebug \
+    twrp_moba-eng

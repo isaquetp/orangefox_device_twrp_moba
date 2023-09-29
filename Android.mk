@@ -6,7 +6,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),lmi)
+ifeq ($(TARGET_DEVICE),moba)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 
 # Hack some props to allow stock ROM flashing
