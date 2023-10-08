@@ -114,7 +114,8 @@ BOARD_MKBOOTIMG_ARGS += \
 	--kernel_offset $(BOARD_KERNEL_OFFSET) \
 	--second_offset $(BOARD_KERNEL_SECOND_OFFSET) \
 	--dtb_offset $(BOARD_DTB_OFFSET) \
-	--header_version $(BOARD_BOOT_HEADER_VERSION)
+	--header_version $(BOARD_BOOT_HEADER_VERSION) \
+        --dtb $(TARGET_PREBUILT_DTB)
 
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_moba
